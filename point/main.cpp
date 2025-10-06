@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-	int index = 1;
 	float x1, y1, x2, y2;
 
 	cout << "Entrer la coordonnee x1: " << endl;
@@ -19,8 +18,8 @@ int main()
 	Point pt1(x1, y1);
 	Point pt2(x2, y2);
 
-	pt1.afficher(index++);
-	pt2.afficher(index);
+	pt1.afficher();
+	pt2.afficher();
 
 	cout << "La distance entre les deux points est: " << pt1.calculerDistance(pt2) << endl;
 

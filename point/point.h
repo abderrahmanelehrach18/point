@@ -9,6 +9,6 @@ private:
 public:
 	Point(float, float);
 	float calculerDistance(Point);
-	void afficher(int);
+	void afficher();
 
 };
